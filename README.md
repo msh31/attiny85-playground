@@ -10,7 +10,8 @@ This repository is dedicated to storing scripts for the Digispark Attiny85 while
 
 ## List of scripts
 
-- **DNS Poisoner** - Redirects popular sites to a porn site using the hosts file.
+- **LLM Blocker** - Redirects all A.I. powered chatbots to an adult site using the hosts file.
 - **LED Blinker** - Blinks the built-in LED at a 420ms interval.
+- **Mouse Jiggler** - Moves the mouse around on loop
 
 ---
