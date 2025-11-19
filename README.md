@@ -15,3 +15,9 @@ This repository is dedicated to storing scripts for the Digispark Attiny85 while
 - **Mouse Jiggler** - Moves the mouse around on loop
 
 ---
+
+## Arduino
+This is the board manager for the Attiny85 that works for me:
+```bash
+https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json,https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
+```
